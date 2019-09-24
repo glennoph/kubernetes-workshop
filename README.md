@@ -143,6 +143,8 @@ We now need to install PyGithub since we need it to communicate with Github API 
 pip install PyGithub
 ```
 
+### go-quest ?new app?
+
 Go to Github and [create a new app](https://github.com/settings/applications/new). We will need the application "Client ID" and "Client Secret":
 
 ```python
