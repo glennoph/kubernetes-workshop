@@ -144,6 +144,12 @@ pip install PyGithub
 ```
 
 ### go-quest ?new app?
+Inputs: 
+* Application name
+* homepage url
+* app descr
+* authorization callback URL
+----
 
 Go to Github and [create a new app](https://github.com/settings/applications/new). We will need the application "Client ID" and "Client Secret":
 
