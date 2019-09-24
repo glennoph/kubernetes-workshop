@@ -75,6 +75,15 @@ Now we need to create then activate the new environment:
 mkvirtualenv --python=/usr/bin/python3 trendinggitrepositories
 workon trendinggitrepositories
 ```
+### go-updates 
+```
+python3 -m pip install --user --upgrade pip
+python3 -m pip install --user virtualenv
+python3 -m venv env
+pip install virtualenvwrapper
+. ./.bashrc
+```
+
 
 Let's create the application directories:
 
